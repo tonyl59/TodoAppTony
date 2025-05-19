@@ -32,13 +32,7 @@ public class Todo {
         this.description = description;
         this.done = false;
     }
-    public Todo(int id, String name, String description, boolean done) { // Marche pour la modification de tâche
-        count++;
-        this.id = id;
-        this.name = name;
-        this.description = description;
-        this.done = done;
-        }
+
 
     @Override
     public String toString() {
