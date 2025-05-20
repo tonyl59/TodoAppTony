@@ -6,7 +6,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class TodoServiceImpl implements TodoService{
-    @Override //TODO à moi de remplir toutes les methodes... stocker les todo dans qlq chose, à moi de voir où les mettre
+    // J'aurais pu mettre la todolist ici plutot que dans le model To do, ca me fera eviter de faire les .getTodolist() à chaque fois.
+
+    // private List<To-do> todos = new ArrayList<>()
+    // private int compteurId = 1
+
+    @Override
     public List<Todo> getAll() {
 
 
@@ -15,6 +20,11 @@ public class TodoServiceImpl implements TodoService{
 
     @Override
     public Todo getById(int id) {
+        // To-do todoSearch = null;
+        //for (To-do t: todos){
+        //   if(t.getId()=id){
+        //        todoSearch = t;
+
         return null;
     }
 

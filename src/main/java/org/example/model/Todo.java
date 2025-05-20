@@ -16,6 +16,8 @@ public class Todo {
     //🛠️ Ces champs doivent être encapsulés dans la classe Todo, avec des getters et setters publics.
 
     // Attributs
+    // Va representer ce qu'est une To-do, ce qui va gerer les todos c'est le todoservice impl, pour ça qu'à la correction
+    // christophe va mettre la liste et le compteur dans le TodoServiceImpl
     private int id;
     private String name;
     private String description;
